@@ -1,0 +1,167 @@
+/* start basic */
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+:root {
+  --colorone: #83764d;
+  --colortwo: #fcc961;
+  --grid: repeat(auto-fill, minmax(250px, 1fr));
+}
+body {
+  font-family: g;
+  direction: rtl;
+}
+@font-face {
+  font-family: g;
+  src: url("../font/Graphik\ Arabic\ SemiBold.ttf");
+}
+/* end basic */
+/* start head  */
+.icon .btn-success {
+  background-color: #83764d;
+  border: #83764d;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* end head  */
+/* start landing */
+
+.landing {
+  background-image: url(../image/img-4.jpg);
+  height: 100vh;
+background-position: center center;
+  background-repeat: no-repeat;
+background-size: cover;
+}
+.cet image img{
+
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #ac8b27;
+}
+.nav-link:focus {
+  color: #ac8b27;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  border: none;
+}
+.navbar-nav {
+  background-color: #83764d;
+  border-radius: 20px;
+}
+.btn-outline-success {
+  color: var(--colorone);
+  border: solid 2px #83764d;
+}
+.btn-outline-success:hover {
+  background-color: var(--colorone);
+  border: solid 2px #83764d;
+}
+
+/* end landing */
+/* start part info */
+span {
+  color: var(--colortwo);
+  color: #fcc961;
+}
+
+.info ul {
+  position: relative;
+  left: 0px;
+}
+.info ul li {
+  margin-left: 10%;
+  position: relative;
+}
+.info ul li::before {
+  content: "\f058";
+  font-family: "Font Awesome 6 free";
+  position: absolute;
+  color: var(--colortwo);
+  right: -20px;
+  top: 0;
+  font-weight: 900;
+}
+/* end part info */
+/* start part card with grid system */
+.card{
+  border: none;
+}
+.card .mb-3 {
+  position: relative;
+  border-radius: 20px;
+}
+
+.card .one {
+  position: relative;
+  border-radius: 20px;
+height: 300px;
+}
+.card  .img-fluid {
+  height: 360px;
+  width: 100%;  
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+  border-radius: 20px;
+  text-align: center;
+  z-index: -1;
+}
+ .basic{position: relative;}
+
+  .mb-3::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 95%;
+    height: 100%;
+    background: linear-gradient(0deg, #ce9f41 0%, transparent 100%);
+    border-radius: 0 0 25px 40px;
+  }
+  .card .text{
+    position: absolute;
+    bottom: -30px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+text-align: center;
+  }
+  .card  .mb-3  h3{
+    font-size: 25px;
+    color: #273e7e ;
+  }
+.card  .mb-3  p{
+  font-size: 15px;
+  color: white;
+}
+
+.end{
+background-color: #273e7e;
+height: 100%;
+
+}
+/* end part card with grid system */
+/* the end  */
+.end .text{
+  color: #949fbc;
+}
+.btn-dark{
+  background-color: #ac8b27;
+  
+}
+/* start end  */
